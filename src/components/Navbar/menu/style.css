@@ -1,0 +1,31 @@
+.popup-menu{
+    position: absolute;
+    /* padding: 50px 20px; */
+    width: 100%;
+}
+.smart-ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .smart-ul li {
+    padding: 10px; /* Add padding to each list item */
+    cursor: pointer;
+  }
+  
+  .smart-ul li:hover {
+    margin: 5px;
+    background-color: #e9e9e9; /* Change background color on hover */
+  }
+  
+  .icon {
+    margin-right: 5px; /* Add space between icon and text */
+  }
+  .link-style {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from parent */
+  }
+  
+  .link-style:hover {
+    text-decoration: underline; /* Add underline on hover if needed */
+  }

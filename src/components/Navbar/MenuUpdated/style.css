@@ -1,0 +1,85 @@
+.bg-drawer-style{
+    background-image: url("../../../assets/desert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay-div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:-1px;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .3);
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: -1px;
+  bottom: 0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity and color as needed */
+  z-index: 999; /* Ensure the overlay appears above other content */
+}
+.drawer{
+  z-index:999999;
+}
+.drawer-title{
+    color: #fff;
+    text-align: center;
+    z-index: 999999;
+}
+.drawer-header{
+    display: flex;
+}
+.drawer-header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    margin: auto;
+}
+.user-icon-menu{
+    border:"2px solid #fff";
+    padding: 5px;
+    border-radius: 50%; 
+}
+.smart-ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .smart-ul li {
+    padding: 10px; /* Add padding to each list item */
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
+  
+  .smart-ul li:hover {
+    background-color: #e9e9e9; /* Change background color on hover */
+  }
+ 
+  .link-style {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from parent */
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 11px 8px;
+  }
+   
+  .link-style .icon {
+    margin-right: 5px; /* Add space between icon and text */
+    font-size: 25px;
+  }
+  .link-style span{
+    font-size: 16px;
+  }
+  .link-style:hover {
+    text-decoration: underline; /* Add underline on hover if needed */
+  }

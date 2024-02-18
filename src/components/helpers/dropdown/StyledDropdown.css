@@ -1,0 +1,22 @@
+/* styles.css */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none; /* Remove default arrow in some browsers */
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
